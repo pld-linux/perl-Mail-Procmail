@@ -1,0 +1,11 @@
+--- Mail-Procmail-1.08.orig/lib/Mail/Procmail.pm	2004-09-19 12:36:32.000000000 +0200
++++ Mail-Procmail-1.08/lib/Mail/Procmail.pm	2011-09-12 17:25:08.373615153 +0200
+@@ -278,7 +278,7 @@
+     croak("Unprocessed attributes: ".join(" ",sort keys %atts))
+       if %atts;
+ 
+-    $m_obj = Mail::Internet->new($fh);
++    $m_obj = Mail::Internet->new($fh, Modify => 0);
+     $m_head = $m_obj->head;  # Mail::Header
+ 
+     $m_obj;
