@@ -18,7 +18,7 @@ URL:		http://search.cpan.org/dist/%{pdir}-%{pnam}/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl(LockFile::Simple)
+BuildRequires:	perl-LockFile-Simple
 BuildRequires:	perl-MailTools
 %endif
 BuildArch:	noarch
