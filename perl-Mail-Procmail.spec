@@ -14,7 +14,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	4a8d3c3d90553a98f702c851c27be320
 Patch0:		%{name}-modify_headers.patch
-URL:		http://search.cpan.org/dist/%{pdir}-%{pnam}/
+URL:		http://search.cpan.org/dist/Mail-Procmail/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
