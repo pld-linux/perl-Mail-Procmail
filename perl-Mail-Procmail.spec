@@ -4,7 +4,6 @@
 
 %define		pdir	Mail
 %define		pnam	Procmail
-%include	/usr/lib/rpm/macros.perl
 Summary:	Mail::Procmail - Procmail-like facility for creating easy mail filters
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.08
